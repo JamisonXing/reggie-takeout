@@ -7,12 +7,10 @@ import org.itheima.reggie.entity.Employee;
 import org.itheima.reggie.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.DigestUtils;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.time.LocalDateTime;
 
 @Slf4j
 @RestController
@@ -75,4 +73,29 @@ public class EmployeeController {
         return R.success("退出成功");
     }
 
+    /**
+     * 新增员工
+     * @param employee
+     * @return
+     */
+    @PostMapping    //路径与类路径相同不用再加了
+    public R<String> save(HttpServletRequest request,@RequestBody Employee employee){  //传入json所以加这个注解
+        log.info("新增员工，员工信息:{}",employee.toString());
+
+        //设置默认密码，进行md5加密处理
+        employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
+
+        employee.setCreateTime(LocalDateTime.now());
+        employee.setUpdateTime(LocalDateTime.now());
+
+        //获取当前登录用户的id
+        Long empId = (Long) request.getSession().getAttribute("employee");
+
+        employee.setCreateUser(empId);
+        employee.setUpdateUser(empId);
+
+        employeeService.save(employee);//mybatis实现的save方法
+
+        return R.success("新增员工成功");
+    }
 }
