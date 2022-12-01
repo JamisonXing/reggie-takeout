@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="impl paging query">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="enable and disable employee accounts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +129,7 @@
       <workItem from="1669715462287" duration="597000" />
       <workItem from="1669786831656" duration="596000" />
       <workItem from="1669877772705" duration="19000" />
-      <workItem from="1669877817389" duration="4581000" />
+      <workItem from="1669877817389" duration="5966000" />
     </task>
     <task id="LOCAL-00001" summary="impl login function">
       <created>1668685707742</created>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669213336849</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="enable and disable employee accounts">
+      <created>1669885242828</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669885242828</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +235,8 @@
     <MESSAGE value="impl global exception handler" />
     <MESSAGE value="配置MP的分页插件" />
     <MESSAGE value="impl paging query" />
-    <option name="LAST_COMMIT_MESSAGE" value="impl paging query" />
+    <MESSAGE value="enable and disable employee accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable and disable employee accounts" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
