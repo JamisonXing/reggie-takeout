@@ -96,7 +96,8 @@ public class EmployeeController {
         employee.setCreateUser(empId);
         employee.setUpdateUser(empId);
 
-        employeeService.save(employee);//mybatis实现的save方法
+        //mybatis实现的save方法
+        employeeService.save(employee);
 
         return R.success("新增员工成功");
     }
@@ -116,10 +117,30 @@ public class EmployeeController {
         Page pageInfo = new Page(page, pageSize);
         //构造条件构造器
         LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper();
-        queryWrapper.like(StringUtils.isNotEmpty(name), Employee::getName, name);   //添加过滤条件
-        queryWrapper.orderByDesc(Employee::getUpdateTime);  //添加排序条件
+        //添加过滤条件
+        queryWrapper.like(StringUtils.isNotEmpty(name), Employee::getName, name);
+        //添加排序条件
+        queryWrapper.orderByDesc(Employee::getUpdateTime);
         //执行查询
         employeeService.page(pageInfo, queryWrapper);
         return R.success(pageInfo);
+    }
+
+    /**
+     * 根据id修改员工信息
+     * @param employee
+     * @return
+     */
+    @PutMapping
+    public R<String> update(HttpServletRequest request, @RequestBody Employee employee) {
+        log.info(employee.toString());
+
+        Long empId = (Long) request.getSession().getAttribute("employee");
+        employee.setUpdateTime(LocalDateTime.now());
+        employee.setUpdateUser(empId);
+
+        employeeService.updateById(employee);
+
+        return R.success("员工信息修改成功");
     }
 }
