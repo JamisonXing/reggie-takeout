@@ -47,4 +47,16 @@ public class CaregoryController {
         categoryService.page(pageInfo, queryWrapper);
         return R.success(pageInfo);
     }
+
+    /**
+     * 按照id删除
+     * @param id
+     * @return
+     */
+    @DeleteMapping
+    public R<String> delete(Long id) {
+        log.info("删除分类，id为：{}", id);
+        categoryService.remove(id);
+        return R.success("分类信息删除成功");
+    }
 }

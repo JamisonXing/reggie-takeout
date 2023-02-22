@@ -2,7 +2,7 @@ package org.itheima.reggie.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.itheima.reggie.entity.Category;
+import org.itheima.reggie.entity.Dish;
 
-public interface CategoryService extends IService<Category> {
-    public void remove(Long id);
+public interface DishService extends IService<Dish> {
 }
