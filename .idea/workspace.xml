@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="分类信息新增和分页查询">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/CaregoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/CaregoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
-    </list>
+    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="删除分类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +175,7 @@
       <workItem from="1676282550401" duration="5000" />
       <workItem from="1676283200710" duration="12000" />
       <workItem from="1676286801810" duration="7000" />
-      <workItem from="1677039010149" duration="6654000" />
+      <workItem from="1677039010149" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="impl login function">
       <created>1668685707742</created>
@@ -294,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675950590396</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="删除分类">
+      <created>1677048268193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677048268193</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +321,8 @@
     <MESSAGE value="自动填充" />
     <MESSAGE value="公共字段自动填充功能完善" />
     <MESSAGE value="分类信息新增和分页查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="分类信息新增和分页查询" />
+    <MESSAGE value="删除分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除分类" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -338,16 +334,6 @@
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/MyMetaObjectHandler.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/MyMetaObjectHandler.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
