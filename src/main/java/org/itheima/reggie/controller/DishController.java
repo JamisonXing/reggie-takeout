@@ -12,6 +12,7 @@ import org.itheima.reggie.service.DishFlavorService;
 import org.itheima.reggie.service.DishService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -47,6 +48,7 @@ public class DishController {
     }
 
     @GetMapping("/page")
+    @Transactional
     public R<Page> page(int page, int pageSize, String name) {
         //构造分页构造器对象
         Page<Dish> pageInfo = new Page<>(page, pageSize);
@@ -85,5 +87,29 @@ public class DishController {
         dishDtoPage.setRecords(list);
 
         return R.success(dishDtoPage);
+    }
+
+    /**
+     * 按照id查询菜品信息和对应口味信息
+     * @param id
+     * @return
+     */
+    @GetMapping("/{id}")
+    public R<DishDto> get(@PathVariable Long id) {
+        DishDto dishDto = dishService.getByIdWithFlavor(id);
+        return R.success(dishDto);
+    }
+
+    /**
+     * 修改菜品
+     * @param dishDto
+     * @return
+     */
+    @PutMapping
+    public R<String> update(@RequestBody DishDto dishDto){
+        log.info(dishDto.toString());
+
+        dishService.updateWithFlavor(dishDto);
+        return R.success("新增菜品成功");
     }
 }
