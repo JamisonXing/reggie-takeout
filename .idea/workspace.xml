@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="上传下载">
+    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="新增菜品">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/CaregoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/CaregoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/DishController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,7 @@
       <workItem from="1676286801810" duration="7000" />
       <workItem from="1677039010149" duration="12390000" />
       <workItem from="1677408495625" duration="1208000" />
-      <workItem from="1677486288713" duration="6860000" />
+      <workItem from="1677486288713" duration="9689000" />
     </task>
     <task id="LOCAL-00001" summary="impl login function">
       <created>1668685707742</created>
@@ -311,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677059388390</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="新增菜品">
+      <created>1677495763776</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495763776</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +351,8 @@
     <MESSAGE value="删除分类" />
     <MESSAGE value="修改分类" />
     <MESSAGE value="上传下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传下载" />
+    <MESSAGE value="新增菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增菜品" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
