@@ -62,7 +62,7 @@ public class LoginCheckFilter implements Filter {
             return;
         }
 
-        //4-1.判断登录状态，已经登录就放行
+        //4-2.判断登录状态，已经登录就放行
         if (request.getSession().getAttribute("user") != null) {
             log.info("移动端用户已登录,用户id为:{}",request.getSession().getAttribute("user"));
             Long userId = (Long)request.getSession().getAttribute("user");
@@ -74,6 +74,7 @@ public class LoginCheckFilter implements Filter {
         log.info("用户未登录");
         //5.未登录则返回未登录结果，输出流方式向客户端页面响应数据,前端js根据数据决定是否跳转
         response.getWriter().write(JSON.toJSONString(R.error("NOTLOGIN")));
+        return;
     }
 
     public boolean check(String[] urls,String requestURI) {
