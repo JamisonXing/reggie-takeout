@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="菜品展示">
+    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="购物车添加与删除">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1678103818020" duration="2922000" />
       <workItem from="1678148488374" duration="3724000" />
       <workItem from="1678169383377" duration="12000" />
-      <workItem from="1678169407936" duration="1486000" />
+      <workItem from="1678169407936" duration="6387000" />
     </task>
     <task id="LOCAL-00001" summary="impl login function">
       <created>1668685707742</created>
@@ -389,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677831568136</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="购物车添加与删除">
+      <created>1678171164879</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678171164879</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="impl login function" />
     <MESSAGE value="impl logout function" />
     <MESSAGE value="add loginCheck filter" />
     <MESSAGE value="test add employee func" />
@@ -432,7 +437,8 @@
     <MESSAGE value="短信验证码-2" />
     <MESSAGE value="移动端登录BUG" />
     <MESSAGE value="菜品展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="菜品展示" />
+    <MESSAGE value="购物车添加与删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车添加与删除" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
