@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="redis缓存验证码">
+    <list default="true" id="e253f4c8-8f88-4c47-9044-ef92362d1ea5" name="变更" comment="SpringCache使用redis缓存数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/ReggieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/common/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/reggie/controller/SetmealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="v1.0" />
-                    <option name="lastUsedInstant" value="1679023982" />
+                    <option name="lastUsedInstant" value="1679043919" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -287,6 +284,8 @@
       <workItem from="1678169383377" duration="12000" />
       <workItem from="1678169407936" duration="6816000" />
       <workItem from="1678791077944" duration="14186000" />
+      <workItem from="1679376047828" duration="631000" />
+      <workItem from="1679459350818" duration="3639000" />
     </task>
     <task id="LOCAL-00001" summary="impl login function">
       <created>1668685707742</created>
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679020048277</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="SpringCache使用redis缓存数据">
+      <created>1679043731695</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679043731695</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test add employee func" />
     <MESSAGE value="impl addEmployee func" />
     <MESSAGE value="global exception handler demo" />
     <MESSAGE value="impl global exception handler" />
@@ -546,7 +551,8 @@
     <MESSAGE value="购物车添加与删除" />
     <MESSAGE value="用户下单" />
     <MESSAGE value="redis缓存验证码" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis缓存验证码" />
+    <MESSAGE value="SpringCache使用redis缓存数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCache使用redis缓存数据" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
