@@ -40,7 +40,12 @@ public class LoginCheckFilter implements Filter {
 
                 //移动端发送短信
                 "/user/sendMsg",
-                "/user/login"
+                "/user/login",
+
+                "/doc.html",
+                "/webjars/**",
+                "/swagger-resources",
+                "/v2/api-docs"
         };
 
         //2.判断本次请求是否需要处理
